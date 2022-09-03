@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h4><strong>Mobile No:</strong> 8353942789 </h4>
+    <h4><strong><a href="https://www.instagram.com/educationsiteamrish/">Instagram</a></strong></h4>
+    <!--below in action default page is index.html but changed mailto which is mail anchor
+    redirects you to mail app to send mail in this form tag body every thing redirects to
+    to mailto if action mentioned in body enctype is used in order to when we enter
+    in mail we get plane text we entered on site-->
+    <form action="mailto:info@educationsite.com" method="post" enctype="text/plain">
+      <label for="">Your Name:</label> <input type="text" name="Yourname" value="">
+       <br>
+      <label for="">&nbsp(Characters 8-10)</label> <input type="checkbox" name="" value="">
+       <br><br>
+      <label for="">Your address:</label> <input type="text" name="youraddress" value="">
+      <br><br>
+     <label for="">Your Birthday:</label> <input type="date" name="yourbirthday" value=""> <input type="range" name="" value="">
+     <br><br>
+     <label for="">Photo</label>
+     <input type="file" name="photo" value="">
+     <label for="">Signature</label>
+     <input type="file" name="signature" value="">
+     <br><br>
+     <label for="">Email:</label> <input type="Email" name="youremail" value="">
+     <label for="">Username:</label> <input type="text" name="yourusername" value="">
+     <label for="">Password:</label> <input type="text" name="yourpassword" value="">
+     <br><br>
+     <label for=""><strong><sup>****</sup>All fields are required</strong></label> <input type="radio" name="" value="">
+     <input type="button" name="" value="Submit Your Final Application">
+     <input type="submit" name="" value="Mail above details">
+     <br><br>
+     <label for="">Your Message:</label>
+     <br><br>
+     <!-- Below textarea can be used or resize on main website according to rows and columns
+     attributes mentioned size-->
+     <textarea name="Yourmessage" rows="10" cols="30"></textarea>
+     <input type="submit" name="" value="Send">
+    </form>
+    <br><br>
+    <!-- Below the 'type=submit' actually redirects you to page mentioned in the <form>
+     attributes but 'type=button' only creates button doest not redirects you to other pages
+     so to create hompage redirects to index.html I entered below action index.html-->
+
+    <form class="" action="index.html" method="post">
+      <input type="submit" name="" value="Homepage">
+    </form>
+  </body>
+</html>
